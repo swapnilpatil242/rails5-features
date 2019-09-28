@@ -1,3 +1,11 @@
+<div class="align-right">
+  <% if user_signed_in? %>
+    <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+  <% else %>
+    <%= link_to('Login', new_user_session_path) %>  
+  <% end %>
+</div>
+
 <h1 style="text-align:center">Weclome to rails practice</h1>
 
 <h2 class="text-italic">Following are the list of fetures covered in this application</h2>
