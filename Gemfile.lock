@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/swapnilpatil242/rails_blorgh_engine.git
+  revision: 71d7b329c70b3ebdb265ec372e6ef2cb58fe63cd
+  specs:
+    blorgh (0.1.0)
+      rails (~> 5.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -204,6 +211,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blorgh!
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
